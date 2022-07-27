@@ -24,10 +24,10 @@ public class PlayerWinsRow2Test {
     @Test
     public void getWinnerTest() {
         // Given
-        String expectedWinner = "X";
+        Character expectedWinner = 'X';
 
         // When
-        String actualWinner = board.getWinner();
+        Character actualWinner = board.getWinner();
 
         // Then
         Assert.assertEquals(expectedWinner, actualWinner);

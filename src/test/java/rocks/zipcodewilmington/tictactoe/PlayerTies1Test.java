@@ -24,10 +24,10 @@ public class PlayerTies1Test {
     @Test
     public void getWinnerTest() {
         // Given
-        String expectedWinner = "";
+        Character expectedWinner = '\u0000';
 
         // When
-        String actualWinner = board.getWinner();
+        Character actualWinner = board.getWinner();
 
         // Then
         Assert.assertEquals(expectedWinner, actualWinner);
